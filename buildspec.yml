@@ -13,6 +13,7 @@ phases:
     commands:
       - mvn clean package install test
       - mvn surefire-report:report
+      - mvn jacoco:report
       - echo build
   post_build:
     commands:
