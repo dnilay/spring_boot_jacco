@@ -69,7 +69,7 @@
                 </executions>
             </plugin>
         </plugins>
-        <finalName>spring-boot-jacoco</finalName>
+        <finalName>app</finalName>
     </build>
 
 </project>
