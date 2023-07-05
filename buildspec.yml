@@ -19,6 +19,11 @@ phases:
     commands:
       - echo post_build
       - find ./
+reports:
+  jacoco-report:
+    files:
+      - 'test-results/jacoco-coverage-report.xml'
+    file-format: 'JACOCOXML'
 
 artifacts:
   files:
